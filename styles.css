@@ -195,22 +195,22 @@ nav .right a span {
   flex: 8;
 }
 
-/* SECTION 4: Contact */
-.contact-section {
+/* SECTION 4: Certifications */
+.certifications-section {
   padding: 0 50px;
   margin-bottom: 100px;
 }
 
-.contact-section h2 {
+.certifications-section h2 {
   font-size: 35px;
 }
 
-.contact-section .group {
+.certifications-section .group {
   display: flex;
   gap: 50px;
 }
 
-.contact-section .group .text {
+.certifications-section .group .text {
   flex: 3;
   margin-top: 20px;
 }
