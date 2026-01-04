@@ -270,49 +270,13 @@ nav .right a span {
 
 .certifications-section h2 {
   font-size: 38px;
+  margin-bottom: 30px;
 }
 
-.certifications-section .group {
-  display: flex;
-  gap: 50px;
-}
 
-.certifications-section .group .text {
-  flex: 3;
-  margin-top: 20px;
-}
 
-.contact-section .group form {
-  flex: 3;
-  display: flex;
-  flex-direction: column;
-}
 
-.contact-section .group form input,
-.contact-section .group form textarea {
-  font-family: 'Poppins', sans-serif;
-  border: 2px solid var(--link-color);
-  background-color: transparent;
-  padding: 10px;
-  margin-bottom: 15px;
-  outline: none;
-  resize: none;
-}
 
-.contact-section .group form button {
-  font-size: 19px;
-  font-family: 'Poppins', sans-serif;
-  color: #fff;
-  background-color: var(--link-color);
-  border: none;
-  height: 50px;
-  cursor: pointer;
-  transition: .1s;
-}
-
-.contact-section .group form button:hover {
-  filter: brightness(.9);
-}
 
 @media (max-width: 850px) {
   /* SECTION 1: Hero */
@@ -332,9 +296,6 @@ nav .right a span {
   }
 
   /* SECTION 4: Projects */
-  .projects-section {
-    text-align: center;
-  }
 
   .projects-section .group {
     flex-direction: column;
