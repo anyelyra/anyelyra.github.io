@@ -379,6 +379,11 @@ nav .right a span {
   margin-bottom: 6px;
 }
 
+.certification-content p {
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
 /* Button */
 .certification-btn {
   display: inline-block;
