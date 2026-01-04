@@ -262,37 +262,6 @@ nav .right a span {
   margin-bottom: 30px;
 }
 
-.projects-section .group {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-}
-
-.projects-section .group .person-details {
-  text-align: center;
-  flex: 2;
-}
-
-.projects-section .group .person-details img {
-  width: 200px;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.projects-section .group .person-details p {
-  font-weight: 600;
-}
-
-.projects-section .group .person-details p:last-child {
-  font-weight: normal;
-}
-
-.projects-section .group .text {
-  flex: 8;
-}
-
 /* SECTION 5: Certifications */
 .certifications-section {
   padding: 0 50px;
