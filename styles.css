@@ -1,7 +1,7 @@
 :root {
-  --text-color: #75070c;
-  --link-color: #4f6815;
-  --background-color: #ffedab;
+  --text-color: #1a1c20;
+  --link-color: #4a76ee;
+  --background-color: #eeeff1;
 }
 
 * {
@@ -106,7 +106,7 @@ nav .right a span {
 .hero-section .headshot img {
   width: 200px;
   border-radius: 50%;
-  border: 3px solid #75070c
+  border: 3px solid #000000
 }
 
 /* SECTION 2: Skills */
@@ -142,7 +142,7 @@ nav .right a span {
   border: 1px solid #ddd;
   border-radius: 12px;
   text-align: center;
-  background-color: #fff7d8;
+  background-color: #fff;
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -163,8 +163,8 @@ nav .right a span {
 }
 
 .skill-card p {
-  font-size: 15px;
-  color: #332929;
+  font-size: 17px;
+  color: #555;
 }
 /* SECTION 3: Experiences */
 /* Experiences Section */
@@ -188,7 +188,7 @@ nav .right a span {
   position: relative;
   margin-left: 20px;
   padding-left: 30px;
-  border-left: 1px solid #a0af7d;
+  border-left: 2px solid #919191;
 }
 
 .timeline-item {
@@ -200,16 +200,16 @@ nav .right a span {
   content: "";
   position: absolute;
   left: -38px;
-  top: 2px;
+  top: 5px;
   width: 14px;
   height: 14px;
-  background-color: #4f6815;
+  background-color: #161618;
   border-radius: 50%;
 }
 
 .timeline-date {
   font-size: 17px;
-  color: #332929;
+  color: #777;
   margin-bottom: 5px;
 }
 
@@ -221,12 +221,12 @@ nav .right a span {
 .timeline-content .institution {
   font-size: 17px;
   font-weight: 600;
-  color: #332929;
+  color: #555;
 }
 
 .timeline-content p {
   font-size: 17px;
-  color: #332929;
+  color: #555;
   margin-top: 5px;
 }
 
@@ -240,7 +240,7 @@ nav .right a span {
   position: relative;
   padding-left: 16px;
   font-size: 17px;
-  color: #332929;
+  color: #555;
   margin-bottom: 6px;
 }
 
@@ -273,7 +273,7 @@ nav .right a span {
 
 /* Project card */
 .project-card {
-  background-color: #fff7d8;
+  background-color: #fff;
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
@@ -303,7 +303,7 @@ nav .right a span {
 
 .project-content p {
   font-size: 17px;
-  color: #332929;
+  color: #555;
   margin-bottom: 15px;
 }
 
@@ -344,7 +344,7 @@ nav .right a span {
 
 /* Certification card */
 .certification-card {
-  background-color: #fff7d8;
+  background-color: #fff;
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
@@ -375,7 +375,7 @@ nav .right a span {
 
 .certification-content p {
   font-size: 17px;
-  color: #332929;
+  color: #555;
   margin-bottom: 6px;
 }
 
