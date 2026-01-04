@@ -1,7 +1,7 @@
 :root {
-  --text-color: #1a1c20;
-  --link-color: #4a76ee;
-  --background-color: #eeeff1;
+  --text-color: #75070c;
+  --link-color: #4f6815;
+  --background-color: #ffedab;
 }
 
 * {
@@ -106,7 +106,7 @@ nav .right a span {
 .hero-section .headshot img {
   width: 200px;
   border-radius: 50%;
-  border: 3px solid #000000
+  border: 3px solid #75070c
 }
 
 /* SECTION 2: Skills */
@@ -142,7 +142,7 @@ nav .right a span {
   border: 1px solid #ddd;
   border-radius: 12px;
   text-align: center;
-  background-color: #fff;
+  background-color: #fff7d8;
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -163,8 +163,8 @@ nav .right a span {
 }
 
 .skill-card p {
-  font-size: 17px;
-  color: #555;
+  font-size: 15px;
+  color: #332929;
 }
 /* SECTION 3: Experiences */
 /* Experiences Section */
@@ -188,7 +188,7 @@ nav .right a span {
   position: relative;
   margin-left: 20px;
   padding-left: 30px;
-  border-left: 2px solid #919191;
+  border-left: 1px solid #a0af7d;
 }
 
 .timeline-item {
@@ -200,16 +200,16 @@ nav .right a span {
   content: "";
   position: absolute;
   left: -38px;
-  top: 5px;
+  top: 2px;
   width: 14px;
   height: 14px;
-  background-color: #161618;
+  background-color: #4f6815;
   border-radius: 50%;
 }
 
 .timeline-date {
   font-size: 17px;
-  color: #777;
+  color: #332929;
   margin-bottom: 5px;
 }
 
@@ -221,12 +221,12 @@ nav .right a span {
 .timeline-content .institution {
   font-size: 17px;
   font-weight: 600;
-  color: #555;
+  color: #332929;
 }
 
 .timeline-content p {
   font-size: 17px;
-  color: #555;
+  color: #332929;
   margin-top: 5px;
 }
 
@@ -240,7 +240,7 @@ nav .right a span {
   position: relative;
   padding-left: 16px;
   font-size: 17px;
-  color: #555;
+  color: #332929;
   margin-bottom: 6px;
 }
 
@@ -273,7 +273,7 @@ nav .right a span {
 
 /* Project card */
 .project-card {
-  background-color: #fff;
+  background-color: #fff7d8;
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
@@ -303,7 +303,7 @@ nav .right a span {
 
 .project-content p {
   font-size: 17px;
-  color: #555;
+  color: #332929;
   margin-bottom: 15px;
 }
 
@@ -338,13 +338,13 @@ nav .right a span {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 per row */
   gap: 30px;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
 /* Certification card */
 .certification-card {
-  background-color: #fff;
+  background-color: #fff7d8;
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0 6px 15px rgba(0,0,0,0.1);
@@ -375,7 +375,7 @@ nav .right a span {
 
 .certification-content p {
   font-size: 17px;
-  color: #555;
+  color: #332929;
   margin-bottom: 6px;
 }
 
